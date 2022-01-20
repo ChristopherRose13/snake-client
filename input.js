@@ -32,5 +32,9 @@ const handleUserInput = function(key) {
   if (key === '\u0073') {
     connection.write("Move: down");
   }
+
+  if (key === '\u0065') {
+    connection.write("Say: I'm a ssssslithering ssssnake");
+  }
 };
 module.exports = {setUpInput};
